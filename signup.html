@@ -5,5 +5,32 @@
 </head>
 <body>
 	<h1>Sign up</h1>
+	<form>
+		<label>Nom:</label> 
+		<input type="text" name="nom"><br>
+		<label>Prenom:</label> 
+		<input type="text" name="prenom"><br>
+				<label>Email:</label> 
+		<input type="Email" name="email"><br>
+				<label>Password:</label> 
+		<input type="password" name="password"><br>
+		<label>Date de Naissance:</label> 
+		<input type="Date" name="DN"><br>
+		<label>Genre:</label> <br>
+		<input type="radio" value="mal" name="genre">Mal<br>
+		<input type="radio" value="femelle" name="genre">Femelle<br>
+		<label>Languages:</label> <br>
+		<input type="checkbox" value="c" name="lang[0]">C<br>
+		<input type="checkbox" value="python" name="lang[1]">Python<br>
+		<input type="checkbox" value="java" name="lang[2]">Java<br>
+		<label>Pays:</label> <br>
+		<select name="pays">
+		<option value="Maroc" >Maroc</option>
+		<option value="France" >France</option>
+		<option value="Italie" >Italie</option>
+		</select><br>
+		<input type="submit" name="" value="register">
+		<input type="reset" name="" value="clear">
+	</form>
 </body>
 </html>
