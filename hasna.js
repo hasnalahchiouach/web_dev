@@ -83,7 +83,7 @@ Vecteur.prototype.mod=function(){
 Vecteur.prototype.egale=function(v){
 	return this.x==v.x && this.y==v.y;
 }*/
-
+/*
 class Vecteur
 {
 	constructor(x,y)
@@ -101,4 +101,4 @@ class Vecteur
 let v1= new Vecteur(1,2);
 let v2= new Vecteur(3,4);
 console.log(v1.mod());
-console.log(v1.egale(v2));
+console.log(v1.egale(v2)); */
