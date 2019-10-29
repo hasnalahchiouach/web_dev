@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercice1</title>
+</head>
+<body style="width: 500px; height: 500px;">
+
+</body>
+<script type="text/javascript">
+	var colors=["gray","blue","pink","green","yellow"];
+	
+	var elem=document.querySelector('body');
+	function change(e)
+	{
+		var key = Math.floor(Math.random()*5);
+		
+		elem.style.backgroundColor=colors[key];
+	
+		//console.log(colors[key]);
+	}
+	elem.onclick=change;
+
+</script>
+</html>
